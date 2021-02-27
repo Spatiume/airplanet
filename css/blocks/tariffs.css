@@ -1,0 +1,111 @@
+.tariffs_h1{
+  font-size: 49px;
+  font-weight: bold;
+  margin-bottom: 2.5%;
+}
+
+.tariffs__list{
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.tariffs__item{
+  max-width: 250px;
+  height: 100%;
+  border: 1px dotted white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  margin-right: 20px;
+  padding-left: 3px;
+}
+
+
+
+.tariffs__item:hover{
+  border: 1px #e8e8ec dotted;
+  border-radius: 2%;
+}
+
+
+
+.tariffs__item::before{
+  content: "";
+  width: 68px;
+  height: 68px;
+  background: #5973b1 center center no-repeat;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 41px;
+  margin-bottom: 23px;
+}
+
+.tariffs__item:nth-child(1).tariffs__item::before{
+  background-image: url(../../img/icon/flower.png);
+}
+
+.tariffs__item:nth-child(1).tariffs__item:hover::before{
+  background-image: url(../../img/icon/flower.png);
+  width: 72px;
+  height: 72px;
+  margin-bottom: 19px;
+}
+
+.tariffs__item:nth-child(2).tariffs__item::before{
+  background-image: url(../../img/icon/mark-as-favorite-star.png);
+}
+
+.tariffs__item:nth-child(2).tariffs__item:hover::before{
+  background-image: url(../../img/icon/mark-as-favorite-star_hover.png);
+  width: 72px;
+  height: 72px;
+  margin-bottom: 19px;
+}
+
+.tariffs__item:nth-child(3).tariffs__item::before{
+  background-image: url(../../img/icon/painter-palette.png);
+}
+
+.tariffs__item:nth-child(3).tariffs__item:hover::before{
+  background-image: url(../../img/icon/painter-palette_hover.png);
+   width: 72px;
+  height: 72px;
+  margin-bottom: 19px;
+}
+
+.tariffs__item h4{
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  color: #262626;
+  margin-bottom: 14px;
+  letter-spacing: 2px;
+}
+
+.tariffs__item p{
+  margin:0px;
+  margin-bottom: 6px;
+  padding: 0 30px;
+}
+
+
+.tariffs__item b {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: medium;
+  margin-bottom: 14%;
+}
+
+.tariffs__item ul{
+  list-style-position: inherit;
+  text-align: left;
+}
+
+.tariffs__item li{
+  list-style:outside;
+  list-style-position: inherit;
+  margin-left:40px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}

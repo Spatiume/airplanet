@@ -1,0 +1,81 @@
+.nav{
+  min-width: 178px;
+}
+
+.nav__item{
+  margin-bottom: 24px;
+}
+
+.nav__link{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5973b1;
+  letter-spacing: 2.4px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.nav__link::before{
+  vertical-align: middle;
+  text-align: left;
+  content: "";
+  width: 24px;
+  height: 18px;
+  margin-right: 12px;
+  background: left center /contain no-repeat;
+  display:inline-block;
+  margin-bottom: 6px;
+}
+
+.nav__item--icon--main .nav__link::before{
+  background-image: url(../../img/icon/main_icon.png);
+}
+
+.nav__item--icon--main .nav__link:hover::before{
+  background-image: url(../../img/icon/main_icon_hover.png);
+}
+
+
+.nav__item--icon--feed .nav__link::before{
+  background-image: url(../../img/icon/feed_icon.png);
+  margin-left:-2px;
+  margin-right: 14px;
+}
+
+.nav__item--icon--feed .nav__link:hover::before{
+  background-image: url(../../img/icon/feed_icon_hover.png);
+  margin-left:-2px;
+  margin-right: 14px;
+}
+
+
+.nav__item--icon--team .nav__link::before{
+  background-image: url(../../img/icon/team_icon.png);
+  margin-left:-4px;
+  margin-right: 16px;
+}
+
+.nav__item--icon--team .nav__link:hover::before{
+  background-image: url(../../img/icon/team_icon_hover.png);
+}
+
+.nav__item--active.nav__item--icon--main .nav__link:before{
+  background-image: url(../../img/icon/main_icon_hover.png);
+}
+
+.nav__item--active.nav__item--icon--feed .nav__link:before{
+  background-image: url(../../img/icon/feed_icon_hover.png);
+}
+
+.nav__item--active.nav__item--icon--team .nav__link:before{
+  background-image: url(../../img/icon/team_icon_hover.png);
+}
+
+.nav__item--active .nav__link{
+  color: #262424;
+}
+
+.nav__link:hover{
+  color:#262424;
+}

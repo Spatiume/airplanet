@@ -1,0 +1,27 @@
+.footer{
+  background-color: #5972b1;
+  color: #fff;
+    padding-top:20px;
+  padding-bottom: 15px;
+} 
+.container__footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+.footer__info{
+  flex:1;
+}
+.footer__logo{
+  flex:1;
+}
+
+.line {
+  width: 600px;
+  height: 4px;
+  background: linear-gradient(to right, #ccc 50%, #fff 50%);
+  background-repeat: repeat-x;
+  background-size: 20px 2px;
+}

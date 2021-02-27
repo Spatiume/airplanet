@@ -1,0 +1,9 @@
+.banner{
+  position: relative;
+  height: 269px;
+}
+.banner__cover{
+  display: block;
+  position: absolute;
+  top: -12%;
+}
