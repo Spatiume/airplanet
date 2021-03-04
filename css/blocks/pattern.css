@@ -1,0 +1,17 @@
+.pattern{
+  background-color: #76b46f;
+  background-image: url('../../img/reviews/pattern.svg');
+}
+
+.container--midle {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.pattenr__text{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}

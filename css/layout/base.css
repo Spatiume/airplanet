@@ -1,4 +1,4 @@
-body{
+body, html{
   height: 100%;
 }
 
@@ -18,8 +18,8 @@ body{
   flex-direction: column;
 }
 
-.wrapper_content{
-  flex:1;
+.wrapper__content{
+  flex: 1;
 }
 
 .container{
