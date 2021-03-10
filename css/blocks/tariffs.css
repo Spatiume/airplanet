@@ -42,33 +42,33 @@
 }
 
 .tariffs__item:nth-child(1).tariffs__item::before{
-  background-image: url(../../img/icon/flower.png);
+  background-image: url(../../img/icon/tariffs/flower.png);
 }
 
 .tariffs__item:nth-child(1).tariffs__item:hover::before{
-  background-image: url(../../img/icon/flower.png);
+  background-image: url(../../img/icon/tariffs/flower.png);
   width: 72px;
   height: 72px;
   margin-bottom: 19px;
 }
 
 .tariffs__item:nth-child(2).tariffs__item::before{
-  background-image: url(../../img/icon/mark-as-favorite-star.png);
+  background-image: url(../../img/icon/tariffs/mark-as-favorite-star.png);
 }
 
 .tariffs__item:nth-child(2).tariffs__item:hover::before{
-  background-image: url(../../img/icon/mark-as-favorite-star_hover.png);
+  background-image: url(../../img/icon/tariffs/mark-as-favorite-star_hover.png);
   width: 72px;
   height: 72px;
   margin-bottom: 19px;
 }
 
 .tariffs__item:nth-child(3).tariffs__item::before{
-  background-image: url(../../img/icon/painter-palette.png);
+  background-image: url(../../img/icon/tariffs/painter-palette.png);
 }
 
 .tariffs__item:nth-child(3).tariffs__item:hover::before{
-  background-image: url(../../img/icon/painter-palette_hover.png);
+  background-image: url(../../img/icon/tariffs/painter-palette_hover.png);
    width: 72px;
   height: 72px;
   margin-bottom: 19px;

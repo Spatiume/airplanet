@@ -1,81 +1,81 @@
-.nav{
-  min-width: 178px;
+.sidebar {
+  width: 17%;
 }
 
-.nav__item{
-  margin-bottom: 24px;
+.nav__list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
-.nav__link{
+.nav__item {
+  display: flex;
+}
+
+.nav__link {
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
   color: #5973b1;
-  letter-spacing: 2.4px;
+  letter-spacing: 2px;
   font-size: 12px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-bottom: 17%;
+
 }
 
-.nav__link::before{
-  vertical-align: middle;
-  text-align: left;
+.nav__link::before {
   content: "";
   width: 24px;
-  height: 18px;
+  height: 20px;
+  display: block;
   margin-right: 12px;
-  background: left center /contain no-repeat;
-  display:inline-block;
-  margin-bottom: 6px;
+
 }
 
-.nav__item--icon--main .nav__link::before{
-  background-image: url(../../img/icon/main_icon.png);
+.nav__item--icon--main .nav__link::before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -41px -10px;
 }
 
-.nav__item--icon--main .nav__link:hover::before{
-  background-image: url(../../img/icon/main_icon_hover.png);
-}
-
-
-.nav__item--icon--feed .nav__link::before{
-  background-image: url(../../img/icon/feed_icon.png);
-  margin-left:-2px;
-  margin-right: 14px;
-}
-
-.nav__item--icon--feed .nav__link:hover::before{
-  background-image: url(../../img/icon/feed_icon_hover.png);
-  margin-left:-2px;
-  margin-right: 14px;
+.nav__item--icon--main .nav__link:hover::before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -78px -10px;
 }
 
 
-.nav__item--icon--team .nav__link::before{
-  background-image: url(../../img/icon/team_icon.png);
-  margin-left:-4px;
-  margin-right: 16px;
+.nav__item--icon--feed .nav__link::before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -157px -10px;
 }
 
-.nav__item--icon--team .nav__link:hover::before{
-  background-image: url(../../img/icon/team_icon_hover.png);
+.nav__item--icon--feed .nav__link:hover::before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -117px -10px;
 }
 
-.nav__item--active.nav__item--icon--main .nav__link:before{
-  background-image: url(../../img/icon/main_icon_hover.png);
+
+.nav__item--icon--team .nav__link::before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -242px -8px;
 }
 
-.nav__item--active.nav__item--icon--feed .nav__link:before{
-  background-image: url(../../img/icon/feed_icon_hover.png);
+.nav__item--icon--team .nav__link:hover::before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -199px -8px;
 }
 
-.nav__item--active.nav__item--icon--team .nav__link:before{
-  background-image: url(../../img/icon/team_icon_hover.png);
+.nav__item--active.nav__item--icon--main .nav__link:before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -78px -10px;
 }
 
-.nav__item--active .nav__link{
+.nav__item--active.nav__item--icon--feed .nav__link:before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -117px -10px;
+}
+
+.nav__item--active.nav__item--icon--team .nav__link:before {
+  background: url('./../../img/icon/menu/sprites-menu.png') -199px -8px;
+}
+
+.nav__item--active .nav__link {
   color: #262424;
 }
 
-.nav__link:hover{
-  color:#262424;
+.nav__link:hover {
+  color: #262424;
 }

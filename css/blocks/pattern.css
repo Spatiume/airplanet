@@ -1,17 +1,31 @@
-.pattern{
+.pattern {
   background-color: #76b46f;
   background-image: url('../../img/reviews/pattern.svg');
+  margin-bottom: 40px;
+  
 }
 
-.container--midle {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 30px;
-}
 
-.pattenr__text{
+
+.pattern__text {
   color: white;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+  padding: 7% 4%;
+}
+
+.cta {
+  background-image: url('../../img/reviews/comments.png');
+}
+
+.pattern__link {
+  color: white;
+  font-weight: 500;
+}
+
+.pattenr__phone {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
 }

@@ -1,12 +1,13 @@
 .socials{
   font-size: 14px;
   font-weight: bold;
-  justify-content: end;
+  
 }
 .socials__list{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 5px;
+  align-items: center;
 }
 
 .socials__item{
@@ -14,27 +15,27 @@
   height: 20px;
   border-radius: 50%;
   opacity: .7;
+  margin-right: 15px;
+}
+
+.socials__item:nth-last-child(){
+  margin-right: 0;
 }
 
 .socials__item:nth-child(1){
-  background: white url(../../img/icon/vk.png) center center no-repeat;
-  margin-right: 8px;
+  background: white url('../../img/icon/socials/vk.png') center center no-repeat;
 }
 
 .socials__item:nth-child(2){
-  background: white url(../../img/icon/fb.png) center center no-repeat;
-  margin-right: 8px;
+  background: white url('../../img/icon/socials/fb.png') center center no-repeat;
 }
 
 .socials__item:nth-child(3){
-  background: white url(../../img/icon/twitter.png) center center no-repeat;
-  margin-right: 8px;
+  background: white url('../../img/icon/socials/twitter.png') center center no-repeat;
 }
 
 .socials__item:nth-child(4){
-  background: white url(../../img/icon/mail.png) center center no-repeat;
-  margin-right: 8px;
-
+  background: white url('../../img/icon/socials/mail.png') center center no-repeat;
 }
 
 .socials__item:hover{
